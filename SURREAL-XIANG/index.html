@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head>
+      <meta charset="UTF-8">
+  <title></title>
+    
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <!-- load the ml5.js library -->
+    <script src="ml5.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+ <title>Stateful CharRNN Text Generation Example using p5.js</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script
+  src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"
+  type="text/javascript"
+></script>
+  
+	      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+  <script src="p5.speech.js"></script>
+	
+  <style></style>
+    
+  </head>
+	
+  <body>
+    <script src="sketch.js"></script>
+	      <p>
+      <input id="textInput" value=" Art is a kind of hysteria and " />
+    </p>
+<!--
+    <p>
+      temperature:
+      <input id="tempSlider" type="range" min="0" max="1" step="0.01" /><span
+        id="temperature"
+        >0.5</span
+      >
+    </p>
+-->
+    <p>
+      <button id="reset">Reset</button><button id="start">Start</button>
+<!--		<button id="single">Single</button>-->
+    </p>
+<!--    <p id="status">Loading Model</p>-->
+    <div id="canvasContainer"></div>
+    <p id="result"></p>
+    <script src="sketch.js"></script>
+  
+</body></html>
